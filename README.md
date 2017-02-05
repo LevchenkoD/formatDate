@@ -3,11 +3,13 @@ ________
 
 ## Example
 
-```
+``` JavaScript
 var date = new Date(),
     format = "YYYY MMMM DD",
     formatedDate = formatDate(date, format);
-/* 2017 February 05 */
+    
+console.log(formatedDate) /* 2017 February 05 */
+
 ```
 ________
 
